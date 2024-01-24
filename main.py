@@ -5,11 +5,12 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 app = FastAPI()
 origins = [
     "http://localhost:3000",
+    "https://learn-fe-beta.vercel.app",
 ]
 
 app.add_middleware(
