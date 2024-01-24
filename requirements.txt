@@ -1,0 +1,4 @@
+fastapi==0.97.0
+uvicorn==0.22.0
+virtualenv==20.23.0
+openai==1.7.1
