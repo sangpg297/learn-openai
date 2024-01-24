@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 app = FastAPI()
 origins = [
