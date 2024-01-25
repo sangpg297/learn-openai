@@ -3,9 +3,8 @@ from openai import OpenAI
 from pathlib import Path
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 app = FastAPI()
 origins = [
