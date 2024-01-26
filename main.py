@@ -3,8 +3,9 @@ from openai import OpenAI
 from pathlib import Path
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+from config import env
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=env.TOKEN_OPEN_AI)
 
 app = FastAPI()
 origins = [
